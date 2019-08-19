@@ -6,14 +6,22 @@ import { Component } from '@angular/core'
     templateUrl: './temek.html',
     styles: [`
 
+    header{
+        background-color:#ffff;
+    }
+
     .logo{
         width:15rem;
         height:50px;
     }
 
     .carousel-inner > .item > img{ 
-        width:100%; 
-        max-height:100px; 
+        width:100%;
+        max-height: 200px !important; 
+    }
+    
+    .carousel-item {
+        height: 600px !important;
     }
     
     footer{
